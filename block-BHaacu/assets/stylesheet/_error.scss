@@ -1,0 +1,70 @@
+.error-page-header{
+    
+    background-color: rgb(242,242,242);
+    
+    h1{
+        font-weight: 700;
+        strong{
+            color: rgb(220,60,69);
+        }
+    }
+
+}
+
+
+.error-page-hs{
+padding: 4rem 0;
+background-color: $primary;
+color: white;
+h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+}
+
+.ep-address-section{
+padding: 5rem 0;
+   h2{
+       font-size: 1.4rem;
+       font-weight: 900;
+       padding: 0.5rem 0;
+   }
+}
+
+.ep-address-section .ep-text{
+color: grey;
+padding: 0 10rem;
+}
+
+
+.ep-address-section-item{
+padding: 2rem;
+li{
+    i{  
+        color: $primary;
+        font-size: 1.5rem;
+        display: inline-block;
+        
+        padding: 1.2rem;
+        border-radius: 50%;
+        background-color: rgba(224, 218, 218, 0.5);
+
+    }
+}
+}
+
+
+.ep-address-section-item h3{
+font-size: 1.4rem;
+font-weight: 600;
+padding: 0.8rem 0;
+}
+
+.ep-address-section-item p{
+font-size: 1rem;
+}
+
+.ep-address-section-item a{
+text-decoration: none;
+color: black;
+}

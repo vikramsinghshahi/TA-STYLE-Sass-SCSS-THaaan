@@ -19,19 +19,19 @@ body{
 
 
 h1{
-    font-size: 3rem;
-}
-
-h2{
-    font-size: 2.5rem;
-}
-
-h3{
     font-size: 2rem;
 }
 
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
 h4{
-    font-size: 1.5;
+    font-size: 1.2;
 }
 
 h5{
@@ -59,6 +59,17 @@ h6{
 .flex-22{
     flex: 0 1 22%;
 }
+.flex-20{
+    flex: 0 1 20%;
+}
+
+.flex-48{
+    flex:0 1 48%;
+}
+
+.flex-60{
+    flex:0 1 60%;
+}
 
 .text-align{
     text-align: center;
@@ -67,3 +78,8 @@ h6{
 .width{
     width: 100%;
 }
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
