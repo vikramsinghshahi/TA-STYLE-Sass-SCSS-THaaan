@@ -1,0 +1,99 @@
+.pricing-page-hs{
+    padding: 2rem 0;
+    background-color: $primary;
+    color: white;
+    h2{
+        font-size: 2.4rem;
+        font-weight: 800;
+    }
+}
+
+
+/*pricing coloum*/
+
+.pg-price-col{
+    padding: 5rem 0;
+    background-color: rgb(242,242,242);
+   
+    p{
+        padding: 0 5rem ;
+        font-size: 1rem;
+        color: grey;
+    }
+
+}
+
+.pg-price-col-item h2{
+    font-size: 1rem;
+}
+
+.pg-price-col-item{
+    background-color: white;
+    margin-top: 3rem;
+    padding: 2rem;
+     p{
+        padding: 0.5rem 0;
+         strong{
+             font-size: 2rem;
+             font-weight: 900;
+             
+         }
+     }
+}
+
+.pg-price-col-item li{
+    padding-bottom: 0.7rem;
+}
+
+.pg-price-col-item .btn{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid $primary;
+    color: $primary;
+    margin-top: 1rem;
+    
+}
+
+.pg-price-col-item .active-btn{
+    background-color: $primary;
+    color: white;
+
+}
+
+/*pricing FAQ*/
+
+.pp-faq-section{
+    padding: 3rem 0;
+    h2{
+        font-size: 1.8
+        rem;
+        font-weight: 800;
+        padding-bottom: 0.6rem;
+    }
+}
+
+
+
+.flex-48{
+    flex: 0 1 48%;
+}
+
+.pp-Faq-col{
+    margin-top: 3.5rem;
+    h3{
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+}
+
+.pp-Faq-col p{
+    font-size: 1rem;
+    color: grey;
+    padding-bottom: 1.3rem;
+}
+
+.pp-Faq-col-item{
+    border: 1px solid grey;
+    padding: 1rem;
+    margin-bottom: 1.4rem;
+}
