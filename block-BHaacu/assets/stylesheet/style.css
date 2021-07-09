@@ -545,6 +545,67 @@ h6 {
   color: black;
 }
 
+.ap-mid-section {
+  padding: 2rem 0;
+}
+
+.ap-mid-section-item span i {
+  font-size: 3rem;
+  color: black;
+  margin-right: 3rem;
+}
+
+.ap-mid-section-item h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.ap-mid-section-item p {
+  color: grey;
+  padding-left: 0;
+  margin-bottom: 1.8rem;
+}
+
+.ap-team-section {
+  padding: 6rem 0;
+  background-color: #f2f2f2;
+}
+
+.ap-team-section h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.ap-team-section-item {
+  background-color: white;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.ap-team-section-item h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.ap-team-section-item p {
+  color: #dc3c45;
+}
+
+.ap-article-section {
+  padding: 3rem 6rem;
+}
+
+.ap-article-section h2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.ap-article-section p {
+  color: grey;
+  padding-bottom: 1.4rem;
+}
+
 /*ribbon-bar*/
 .ribbon-bar {
   background-color: #dc3c45;
@@ -627,6 +688,30 @@ h6 {
     margin-right: 1rem;
 }
 */
+.sub-menu-box {
+  position: relative;
+}
+
+.sub-menu {
+  position: absolute;
+  background-color: rgba(242, 242, 242, 0.7);
+  width: 9rem;
+  text-align: left;
+  left: 90%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: none;
+  top: 3rem;
+}
+
+.sub-menu-box:hover .sub-menu {
+  display: inline-block;
+}
+
+.sub-menu li {
+  margin: 1.5rem 0;
+}
+
 /*hero-section*/
 .hero-section {
   background-image: url(../media/banner-1.jpg);
