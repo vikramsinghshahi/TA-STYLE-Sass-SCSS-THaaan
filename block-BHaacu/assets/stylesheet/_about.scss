@@ -1,0 +1,66 @@
+.ap-mid-section{
+    padding: 2rem 0;
+}
+
+
+.ap-mid-section-item{
+    span{
+        i{
+            font-size: 3rem;
+            color: black;
+            margin-right: 3rem;
+        }
+    }
+}
+
+.ap-mid-section-item h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.ap-mid-section-item p{
+    color: grey;
+    padding-left: 0;
+    margin-bottom: 1.8rem;
+}
+
+
+.ap-team-section{
+    padding: 6rem 0;
+    background-color: rgb(242,242,242);
+    h2{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}
+
+
+.ap-team-section-item{
+    background-color: white;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.ap-team-section-item p{
+    color: $primary;
+}
+
+
+.ap-article-section{
+     padding: 3rem 6rem;
+     h2{
+         font-size: 1.8rem;
+         font-weight: 900;
+         padding-bottom: 1rem;
+     }
+
+}
+
+.ap-article-section p{
+    color: grey;
+    padding-bottom: 1.4rem;
+}
