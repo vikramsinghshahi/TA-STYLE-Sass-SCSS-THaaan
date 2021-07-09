@@ -13,36 +13,38 @@
 </head>
 <body>
     <!--ribbon-->
-    <div class="flex container">
-        <ul class="flex">
-            <li><i class="fas fa-phone"></i>+1-12345-678-980</li>
-            <li>
-                <i class="far fa-envelope"></i><a href="#">info@yourdomain.com</a>
-            </li>
-        </ul>
-        <ul class="flex">
-             <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-             <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-        </ul>
-    </div>
+   <div class= "ribbon-bar">
+        <div class="flex container ">
+            <ul class="flex">
+                <li><i class="fas fa-phone"></i>+1-12345-678-980</li>
+                <li>
+                    <i class="fas fa-envelope"></i><a href="#">info@yourdomain.com</a>
+                </li>
+            </ul>
+            <ul class="flex ">
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+        </div>
+   </div>
     <!--header-->
-    <header>
+    <header class="header">
             <div class= "flex container">
-                <h1><strong>Uni</strong>TECH</h1>
+                <h1 class="flex-20 "><strong>Uni</strong> TECH</h1>
           <!--  <label for="checked"><i class="fas fa-bars"></i></label>
                 <input id= checked type="checkbox">--->
-                <nav>
-                    <ul class="flex">
-                        <li>
-                            <a href="#">Home</a>
+                <nav class="nav-bar ">
+                    <ul class="flex flex-60">
+                        <li class = "active-nav-link">
+                            <a href="index.html">Home</a>
                         </li>
-                        <li>
+                        <li >
                             <a href="#">About Us</a>
                         </li>
                         <li>
-                            <a href="#">Service</a>
+                            <a href="service.html">Service</a>
                         </li>
                         <li>
                             <a href="#">Pages <i class="fas fa-angle-down"></i> </a>
@@ -51,7 +53,7 @@
                             <a href="#">Blog <i class="fas fa-angle-down"></i> </a>
                         </li>
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="contact.html">Contact Us</a>
                         </li>
                     </ul>
                 </nav>
@@ -60,69 +62,76 @@
     <main>
         <!--hero section-->
         <section>
-                <div class="container">
-                    <h2>BEST BUSINESS <br> SERVICES</h2>
-                    <p>Lets Grow Your Business Together</p>
-                    <a href="">Quick Call</a>
-                </div>  
+                <div class = "hero-section">
+                    <div class="container">
+                        <h2>BEST BUSINESS <br> SERVICES</h2>
+                        <p>Lets Grow Your Business Together</p>
+                        <a class ="btn" href="#">Quick Call</a>
+                    </div>  
+                </div>
         </section>
         <!---service-section-->
         <section>
-             <div class="container">
-                 <div class="text-align">
+             <div class="container service-section">
+                 <div class="text-align service-heading">
                     <h2>Our Service</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit fugiat expedita error culpa iste.</p>
                  </div>
                  <!--service-row-->
-                 <div class= "flex">
-                     <div class= "flex-30 text-align">
-                         <img src="" alt="">
+                 <div class= "flex service-col">
+                     <div class= "flex-30 text-align service-item">
+                         <figure class= "service-icon-container">
+                            <img src="assets/media/consulting.svg" alt="Counsulting" width="100%">
+                         </figure>
                          <h3>Consulting</h3>
                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                             Dolorum officiis rem fuga, ipsum ipsa laborum, voluptatem, harum consectetur 
-                             quibusdam quia accusantium. 
+                             Dolorum officiis rem fuga, ipsum ipsa laborum, voluptatem. 
                         </p>
-                         <a href="#">Read More</a>
+                         <a class="btn" href="#">Read More</a>
                      </div>
-                     <div class= "flex-30 text-align">
-                        <img src="" alt="">
+                     <div class= "flex-30 text-align service-item">
+                          <figure class= "service-icon-container">
+                            <img src="assets/media/finance.svg" alt="finance" width="100%">
+                         </figure>
                         <h3>Finance</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Dolorum officiis rem fuga, ipsum ipsa laborum, voluptatem, harum consectetur 
-                            quibusdam quia accusantium. 
+                            Dolorum officiis rem fuga, ipsum ipsa laborum, voluptatem.
                        </p>
-                        <a href="#">Read More</a>
+                        <a class="btn"href="#">Read More</a>
                     </div>
-                    <div class= "flex-30 text-align">
-                        <img src="" alt="">
+                    <div class= "flex-30 text-align service-item">
+                          <figure class= "service-icon-container">
+                            <img src="assets/media/technology.svg" alt="Counsulting" width="100%">
+                         </figure>
                         <h3>Technology</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                            Dolorum officiis rem fuga, ipsum ipsa laborum, voluptatem, harum consectetur 
-                            quibusdam quia accusantium. 
+                            Dolorum officiis rem fuga, ipsum ipsa laborum, voluptatem.
                        </p>
-                        <a href="#">Read More</a>
+                        <a class="btn"href="#">Read More</a>
                     </div>
                  </div>
              </div>
         </section>
         <!--solution-section-->
         <section>
-            <div class= "container text-align">
-                <h2>Get all the type of Solutions</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Ab aut velit pariatur iure saepe cumque deleniti sunt suscipit iusto possimus. </p>
-                <a href="#">Read More</a>
+            <div class="solution-col">
+                <div class= "container text-align">
+                    <h2>Get all the type of Solutions</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Saepe cumque deleniti sunt suscipit iusto possimus Lorem.
+                        Ab aut velit pariatur iure saepe cumque deleniti sunt suscipit iusto possimus Lorem.</p>
+                    <a class="btn" href="#">Read More</a>
+                </div>
             </div>
         </section>
         <!---counsulting-section-->
         <section>
-            <article class="container flex">
-                <div class="flex-45">
+            <article class="container flex consulting-col">
+                <div class="flex-45 text-align consulting-col-item">
                     <h2>We are Top Counsulting <br> Firm in the World</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit placeat, possimus 
                         consequuntur voluptatum quae rem voluptas commodi! 
                     </p>
-                    <a href="#">Read More</a>
+                    <a class="btn" href="#">Read More</a>
                 </div>
                 <figure class="flex-45">
                     <img src="assets/media/team.jpg" alt="team" width="100%">
@@ -130,25 +139,27 @@
             </article>
         </section>
         <!--request-section--->
-        <section>
-            <div class="container flex">
-                <div>
-                    <h2>The Best Bussiness Service In The World</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits natus quia minus?
-                       Ab minima tenetur fugiat sed temporibus illo dicta excepturi?</p>
+        <section >
+            <div class="request-section">
+                <div class="container flex">
+                    <div>
+                        <h2>The Best Bussiness Service In The World</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing ipsum, dolor sit amet elits natus quia.</p>
+                    </div>
+                    <a class="btn" href="#">Request Quote</a>
                 </div>
-                <a href="#">Request Quote</a>
             </div>
         </section>
         <!--Result-section--->
         <section>
-            <div class="container flex">
+            <div class="container flex result-section">
                <div class="flex-45">
                     <h2>
                         Inustry Leader in <br>consulting services
                     </h2>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non eos consequuntur corrupti saepe quia libero totam.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.Debitis amet, corporis harum atque minus vel ad,
+                         Non eos consequuntur corrupti saepe quia libero totam.
                         Debitis amet, corporis harum atque minus vel ad, inventore enim velit, rem doloribus ut!
                     </p>
                </div>
@@ -159,23 +170,25 @@
         </section>
         <!--client section-->
         <section>
+           <div class="client-col"> 
             <div class="container text-align">
                 <h2>Our Clients</h2>
                 <ul class="flex">
-                    <li><img src="assets/media/spotify.png" alt="spotify"></li>
-                    <li><img src="assets/media/glasfit.png" alt="glasfit"></li>
-                    <li><img src="assets/media/atlassian.png" alt="atlassian"></li>
-                    <li><img src="assets/media/oracle.png" alt="oracle"></li>
-                    <li><img src="assets/media/airbnb.png" alt="airbnb"></li>
-                    <li><img src="assets/media/patio.png" alt="patio"></li>
+                    <li><img src="assets/media/spotify.png" alt="spotify" width="100%"></li>
+                    <li><img src="assets/media/glasfit.png" alt="glasfit" width="100%"></li>
+                    <li><img src="assets/media/atlassian.png" alt="atlassian" width="100%"></li>
+                    <li><img src="assets/media/oracle.png" alt="oracle" width="100%"></li>
+                    <li><img src="assets/media/airbnb.png" alt="airbnb" width="100%"></li>
+                    <li><img src="assets/media/patio.png" alt="patio" width="100%"></li>
                 </ul>
             </div>
+           </div>
         </section>
     </main>
     <footer>
-        <div class="container flex">
-           <ul class="flex-22">
-               <li>Reach us</li>
+        <div class="container flex align-item">
+           <ul class="flex-22 footer-col-1">
+               <li class="footer-col-1-li">Reach us</li>
                <li><i class="fas fa-location-arrow"></i>#123, Manhatten,7 Avenu,NYC</li>
                <li><i class="fas fa-phone"></i>+1-12345-678-980</li>
                <li>
@@ -183,7 +196,7 @@
                </li>
                
            </ul>
-           <ul class="flex-22">
+           <ul class="flex-22 footer-col-2">
                <li>Site links</li>
                <li><a href="#">Home</a></li>
                <li><a href="#">About Us</a></li>
@@ -191,17 +204,17 @@
                <li><a href="#">Portfolio</a></li>
                <li><a href="#">Pricing</a></li>
            </ul>
-           <ul class="flex-22">
+           <ul class="flex-22 footer-col-2">
                <li>Quick links</li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms & Conditions</a></li>
            </ul>
-           <ul class="flex-22">
-               <li>Follow us</li>
+           <ul class="flex-22 footer-col-1">
+               <li class="footer-col-1-li">Follow us</li>
                <li>
-                   <ul class="flex">
+                   <ul class="flex footer-social-link">
                         <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -211,8 +224,8 @@
                
            </ul> 
         </div>
-        <div class="text-align">
-            <p><strong>Bootstrap Theme</strong>by WebThemez.</p>
+        <div class="text-align footer-end-text">
+            <p><strong>Bootstrap Theme</strong> by WebThemez.</p>
             <span>&copy; All Right Reserved</span>
         </div>
     </footer>

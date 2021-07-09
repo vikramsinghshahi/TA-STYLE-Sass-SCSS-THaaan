@@ -1,0 +1,132 @@
+/*service-page*/
+
+.service-page-header {
+    background-color: rgb(242,242,242);
+    
+    h1{
+        font-weight: 700;
+        strong{
+            color: rgb(220,60,69);
+        }
+    }
+}
+
+
+
+
+
+/*service-page-hero-section*/
+
+.service-page-hs{
+    padding: 2rem 0;
+    background-color: $primary;
+    color: white;
+    h2{
+        font-size: 2.4rem;
+        font-weight: 800;
+    }
+}
+
+
+/*service-page-product-section*/
+
+.service-page-sc{
+    padding: 5rem 0;
+    h2{
+        color: $primary;
+    }
+}
+
+.service-page-sc h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.service-page-sc p{
+    color: grey;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+
+.service-page-ps-col{
+    margin-top: 1rem;
+    h3{
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding: 1rem 0;
+    }
+}
+
+
+.service-page-ps-col p{
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+.service-page-ps-col .btn{
+    color: $primary;
+    background-color: white;
+    border: 2px solid $primary;
+}
+
+.service-page-ps-item{
+    padding: 2rem 2rem;
+   
+}
+
+
+
+.service-page-ps-icon-container{
+    width: 30%;
+    height: auto;
+    
+}
+
+/*service-page-request-section*/
+
+.justify-item{
+    display: flex;
+    justify-content: left;
+}
+
+.service-page-request-section{
+    padding: 3rem 0;
+    background-color: $primary;
+    color: white;
+    h2{
+        border-right: 1px solid white;
+        margin-right: 2.5rem;
+        padding-right: 2rem;
+        font-weight: 700;
+    }
+}
+
+/*award-section*/
+
+.service-page-award-section{
+    padding-top: 4rem;
+    h2{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+}
+
+.service-page-award-section p{
+    color: grey;
+    line-height: 1.5;
+    padding: 1rem  20rem;
+}
+.service-page-award-article{
+    padding: 1.5rem 0;
+    padding-bottom: 3rem;
+    h3{
+        font-size: 2.5rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    }
+}
+
+.service-page-award-article p{
+    color: grey;
+}
